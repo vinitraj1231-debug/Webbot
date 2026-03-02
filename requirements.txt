@@ -1,0 +1,40 @@
+# DevLaunch India — Requirements
+# Install: pip install -r requirements.txt
+
+# Core Framework
+flask==3.0.3
+flask-socketio==5.3.6
+eventlet==0.36.1
+
+# Telegram Bot
+pyTelegramBotAPI==4.20.0
+
+# Auth & Security
+PyJWT==2.9.0
+python-dotenv==1.0.1
+cryptography==43.0.3
+
+# Database (SQLite built-in, optional PostgreSQL)
+# psycopg2-binary==2.9.9  # Uncomment for PostgreSQL
+
+# HTTP Requests
+requests==2.32.3
+httpx==0.27.2
+
+# QR Code & Images
+qrcode[pil]==8.0
+Pillow==11.0.0
+
+# System Monitoring
+psutil==6.1.0
+
+# Git Integration
+gitpython==3.1.43
+
+# Process Management (optional, for better async)
+gunicorn==23.0.0
+
+# Dev Tools (optional)
+# redis==5.2.0          # Uncomment if using Redis queue
+# celery==5.4.0         # Uncomment if using Celery
+# docker==7.1.0         # Uncomment if using Docker SDK
