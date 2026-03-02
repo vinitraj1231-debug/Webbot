@@ -15,7 +15,7 @@ python-dotenv==1.0.1
 cryptography==43.0.3
 
 # Database (SQLite built-in, optional PostgreSQL)
-# psycopg2-binary==2.9.9  # Uncomment for PostgreSQL
+psycopg2-binary==2.9.9  # Uncomment for PostgreSQL
 
 # HTTP Requests
 requests==2.32.3
@@ -35,6 +35,6 @@ gitpython==3.1.43
 gunicorn==23.0.0
 
 # Dev Tools (optional)
-# redis==5.2.0          # Uncomment if using Redis queue
-# celery==5.4.0         # Uncomment if using Celery
-# docker==7.1.0         # Uncomment if using Docker SDK
+ redis==5.2.0          # Uncomment if using Redis queue
+ celery==5.4.0         # Uncomment if using Celery
+docker==7.1.0         # Uncomment if using Docker SDK
